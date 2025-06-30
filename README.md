@@ -68,7 +68,7 @@ In this case, task **#3** is selected. The application uses the `sed` command to
 
 After deletion, the updated task list is shown with the remaining 5 tasks, and the numbering automatically adjusts. This ensures clarity and preserves the consistency of the task list for future interactions.
 
-### Screenshot 4: Exiting the Application
+### 🚪 Screenshot 4: Exiting the Application
 *Demonstrates a graceful and informative program exit.*
 
 ![Program  Exit](screenshots/04-exit-program.png)
