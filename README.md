@@ -20,7 +20,7 @@ This screenshots demonstrate the application's startup interface that appears wh
 
 ### ➕  Screenshot 2: Adding a new task
 
-**Process of adding multiple tasks with interactive prompts and validation
+*Process of adding multiple tasks with interactive prompts and validation*
 
 ![Add Task](screenshots/02-add-task.png)
 
@@ -47,6 +47,26 @@ Tasks shown include:
 
 The numbered format enhances clarity and usability. This screenshot also illustrates the smooth transition between viewing tasks and returning to the main menu, showcasing the application’s interactive loop that enables seamless task management from start to finish.
 
+
+### 🗑️ Screenshot 3: Delete task
+*Demonstrates the deletion workflow and automatic reordering of tasks.*
+
+![Delete Task](screenshots/03-delete-task.png)
+
+This screenshot illustrates the task deletion process using option 3 from the menu. The session begins by displaying all six existing tasks, numbered with the `nl` command. Sample tasks include:
+
+- *"I want to go and watch football by 3pm"*
+- *"I want to go to the cinema by 3pm"*
+- *"I want to go to the gym"*
+- and others...
+
+The user is prompted:
+> *"Enter the task number to delete (1–6):"*
+
+In this case, task **#3** is selected. The application uses the `sed` command to remove the corresponding line and confirms the action with:
+> *"Task #3 was deleted successfully!"*
+
+After deletion, the updated task list is shown with the remaining 5 tasks, and the numbering automatically adjusts. This ensures clarity and preserves the consistency of the task list for future interactions.
 
 
 
