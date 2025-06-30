@@ -8,15 +8,45 @@ This project is a simple command-line To-Do List application written in Bash. It
 - Interactive menu system 
 - Persistance storage in `~/kodecamp/todo.txt`
 
-## Screenshots and Demonstrations
+## 📸  Screenshots and Demonstrations
 
-### Screenshot 1: Main Menu
+### 🧭  Screenshot 1: Main Menu
 *The main menu interface showing all available options. It is the clean, intuitive menu that presents all available task management options*
 
 ![Main Menu](screenshots/01-main-menu.png)
 ![Main Menu](screenshots/01a-main-menu.png)
 
-This screenshot demonstrates the application's startup interface that appears when users execute the script. The first image shows the main menu with four numbered options for task management operations. The second image illustrates the empty state response when selecting "View all tasks" (option 1) on an uninitialized todo list, displaying the message "No tasks found. Your todo list is empty".
+This screenshots demonstrate the application's startup interface that appears when users execute the script. The first image shows the main menu with four numbered options for task management operations. The second image illustrates the empty state response when selecting "View all tasks" (option 1) on an uninitialized todo list, displaying the message "No tasks found. Your todo list is empty".
+
+### ➕  Screenshot 2: Adding a new task
+
+**Process of adding multiple tasks with interactive prompts and validation
+
+![Add Task](screenshots/02-add-task.png)
+
+This screenshot demonstrates the task addition flow in action. When users select option 2 from the main menu, the application prompts them to enter tasks one by one. After each entry, the system confirms the addition with messages like:
+
+- `"Go to market by 3: added"`
+- `"Go to the store by 4pm: added"`
+
+Users are asked after each entry:
+> *"Add another task? (y/n):"*
+
+This allows multiple tasks to be added in one go. Once the user chooses to stop, the program summarizes the session:
+> *"Successfully added 3 task(s)!"*
+
+Then, it returns to the main menu.
+
+![Add Task](screenshots/02a-list-added-task.png)
+
+** This screenshot highlights the "View all tasks" functionality in action, used multiple times throughout the session. The application lists all stored tasks with numbered lines using the `nl` command, making it easy to reference specific tasks when performing operations like deletion.
+
+Tasks shown include:
+- *"I want to go and watch football by 3pm"*
+- *"I want to go to the cinema by 3pm"*...
+
+The numbered format enhances clarity and usability. This screenshot also illustrates the smooth transition between viewing tasks and returning to the main menu, showcasing the application’s interactive loop that enables seamless task management from start to finish.
+
 
 
 
