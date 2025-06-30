@@ -81,5 +81,5 @@ This screenshot captures the exit process when the user selects **option 4** fro
 
 The program then cleanly terminates and returns control to the shell prompt.
 
-This sequence demonstrates thoughtful user experience design, confirming that task data has been safely preserved and providing reassurance before the session ends. It reflects good scripting practice by offering clear feedback and ensuring the session concludes smoothly.
+This sequence demonstrates thoughtful user experience design, and also confirms the user's exit.
 
