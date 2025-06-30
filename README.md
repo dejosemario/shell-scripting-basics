@@ -68,6 +68,18 @@ In this case, task **#3** is selected. The application uses the `sed` command to
 
 After deletion, the updated task list is shown with the remaining 5 tasks, and the numbering automatically adjusts. This ensures clarity and preserves the consistency of the task list for future interactions.
 
+### Screenshot 4: Exiting the Application
+*Demonstrates a graceful and informative program exit.*
 
+![Program  Exit](screenshots/04-exit-program.png)
 
+This screenshot captures the exit process when the user selects **option 4** from the main menu. Upon choosing to exit, the application responds with a friendly and professional farewell sequence:
+
+- `"Thank you for using Todo List Manager!"`
+- `"Your tasks are saved in: /home/dejosemario/kodecamp/todo.txt"`
+- `"Goodbye!"`
+
+The program then cleanly terminates and returns control to the shell prompt.
+
+This sequence demonstrates thoughtful user experience design, confirming that task data has been safely preserved and providing reassurance before the session ends. It reflects good scripting practice by offering clear feedback and ensuring the session concludes smoothly.
 
